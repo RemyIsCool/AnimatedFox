@@ -61,11 +61,34 @@
 
 .tabbrowser-tab {
 	transition: min-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), max-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280) !important;
+	&:is([fadein], [pinned]) {
+	 max-width: 175px !important;
+	}
 	&[selected] {
-		min-width: 300px !important;
+		min-width: 250px !important;
+		max-width: 250px !important;
 	}
 }
 
 #urlbar-background {
 	border-radius: 10px !important;
+}
+
+.urlbarView-url {
+	color: #d4be98 !important;
+}
+
+#tabbrowser-arrowscrollbox {
+	min-width: 100vw !important;
+}
+
+
+@media (-moz-bool-pref: "minimal-gruvbox-material-firefox.centered-tabs") {
+  #tabbrowser-arrowscrollbox:not([overflowing]) {
+	  --uc-flex-justify: center;
+  }
+
+  scrollbox[orient="horizontal"] {
+	  justify-content: var(--uc-flex-justify, initial);
+  }
 }
