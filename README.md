@@ -30,7 +30,7 @@ Default Dark: Works well.
 Default Light: Selected tabs have no background.
 ![20240625_16h08m24s_grim](https://github.com/RemyIsCool/userChrome.css/assets/97812130/f6bd95db-0206-4372-af82-f9f03af9c9c1)
 
-Alpenglow: Background image doesn't show when the window is selected.
+Alpenglow: Background image doesn't show when the window is focused.
 ![20240625_16h07m56s_grim](https://github.com/RemyIsCool/userChrome.css/assets/97812130/49ff0b71-d887-41a8-bd8f-c9dd1e2344c7)
 
 ---
