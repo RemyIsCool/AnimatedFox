@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+	font-family: JetBrainsMono Nerd Font;
+}
+
+#alltabs-button, .titlebar-buttonbox-container, #page-action-buttons, #tracking-protection-icon-container, #identity-box {
+	display: none;
+}
+
+#titlebar {
+	z-index: 2;
+	background-color: #282828 !important;
+}
+
+#nav-bar {
+	position: fixed !important;
+	top: 0;
+	left: 25%;
+	right: 25%;
+  z-index: 1;
+	transition: top 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), opacity 0.1s ease !important;
+	border-top: none !important;
+	border-radius: 10px !important;
+	border: 1px solid #32302F !important;
+	opacity: 0;
+}
+
+#navigator-toolbox {
+	border-bottom: none !important;
+}
+
+#tabs-newtab-button {
+	opacity: 0;
+	transition: 0.2s opacity ease;
+}
+
+#navigator-toolbox:not(:hover, :focus-within) #nav-bar {
+	transition-delay: 0.2s !important;
+}
+
+#navigator-toolbox:is(:hover, :focus-within) {
+	#nav-bar {
+	  top: 3.5rem;
+		opacity: 1;
+  }
+	
+	#tabs-newtab-button {
+		opacity: 1;
+	}
+}
+
+.tab-background {
+	box-shadow: none !important;
+	border-radius: 10px !important;
+}
+
+.tab-close-button {
+	display: none;
+}
+
+.tabbrowser-tab {
+	transition: min-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), max-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280) !important;
+	&[selected] {
+		min-width: 300px !important;
+	}
+}
+
+#urlbar-background {
+	border-radius: 10px !important;
+}
