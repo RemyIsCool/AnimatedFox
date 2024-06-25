@@ -20,3 +20,5 @@ https://github.com/RemyIsCool/userChrome.css/assets/97812130/4278182a-f201-420a-
 4. Click [this link](https://color.firefox.com/?theme=XQAAAAKGAQAAAAAAAABBKYhm849SCia73laEGccwS-xMDPr5iE6wEt17lnFu4uAqMsdEr66zA4hyQFpjnIdIqexC6jk0ujxh3YezY5q8Yibz3vKnXSdVRwFGs8MGkNcRmXXkVBYSSb5AZytOH-ZH-2fJHXOM2cMauhgxI-owK6hf70XV6B-CNgSQ8ezEFHnV3IYDQizRHgzyz4-QTV3e2qMGHFZQ86mhpKNfHjKK6Ay7Rw6VO4ffFxgcOJhEOGZegOZPzluYPS3grJZyeCZz6Y1js48jUOlOXyXnJ9VOUhG__2C1sgA) to install the Firefox Color theme.
 
 If you would like your tabs to be centered, set the option "minimal-gruvbox-material-firefox.centered-tabs" to true in about:config.
+
+For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
