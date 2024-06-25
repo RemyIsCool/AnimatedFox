@@ -1,5 +1,5 @@
-# userChrome.css
-My userChrome.css file for customizing LibreWolf/Firefox
+# Minimal Gruvbox Material Firefox
+A minimal Firefox theme with Gruvbox Material colors and satisfying animations.
 
 
 
