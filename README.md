@@ -27,7 +27,7 @@ This theme might work with other color schemes, but I can't guarantee it. Howeve
 Default Dark: Works well.
 ![20240625_16h08m13s_grim](https://github.com/RemyIsCool/userChrome.css/assets/97812130/1f2ea03b-fd94-46f1-9543-0dd8ae1dff4c)
 
-Default Light: Selected tabs have no background.
+Default Light: Selected tabs background is not very visible.
 ![20240625_16h08m24s_grim](https://github.com/RemyIsCool/userChrome.css/assets/97812130/f6bd95db-0206-4372-af82-f9f03af9c9c1)
 
 Alpenglow: Background image doesn't show when the window is focused.
