@@ -21,7 +21,14 @@ https://github.com/RemyIsCool/userChrome.css/assets/97812130/4278182a-f201-420a-
 
 If you would like your tabs to be centered, set the option "minimal-gruvbox-material-firefox.centered-tabs" to true in about:config.
 
----
-This theme might work with other color schemes, but I can't guarantee it.
+## Other color schemes
+This theme might work with other color schemes, but I can't guarantee it. However, here are a few that I have tested:
 
+Default Dark: Works perfectly.
+
+Default Light: Works with the exception of the tabs being the same color as the background.
+
+Alpenglow: Works, but the custom background image doesn't show.
+
+---
 For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
