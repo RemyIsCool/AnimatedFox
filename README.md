@@ -24,11 +24,14 @@ If you would like your tabs to be centered, set the option "minimal-gruvbox-mate
 ## Other color schemes
 This theme might work with other color schemes, but I can't guarantee it. However, here are a few that I have tested:
 
-Default Dark: Works perfectly.
+Default Dark: Works well.
+![20240625_16h08m13s_grim](https://github.com/RemyIsCool/userChrome.css/assets/97812130/1f2ea03b-fd94-46f1-9543-0dd8ae1dff4c)
 
 Default Light: Selected tabs have no background.
+![20240625_16h08m24s_grim](https://github.com/RemyIsCool/userChrome.css/assets/97812130/f6bd95db-0206-4372-af82-f9f03af9c9c1)
 
-Alpenglow: Background image doesn't show.
+Alpenglow: Background image doesn't show when the window is selected.
+![20240625_16h07m56s_grim](https://github.com/RemyIsCool/userChrome.css/assets/97812130/49ff0b71-d887-41a8-bd8f-c9dd1e2344c7)
 
 ---
 For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
