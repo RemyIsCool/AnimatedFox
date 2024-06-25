@@ -26,9 +26,9 @@ This theme might work with other color schemes, but I can't guarantee it. Howeve
 
 Default Dark: Works perfectly.
 
-Default Light: Works with the exception of the tabs being the same color as the background.
+Default Light: Selected tabs have no background.
 
-Alpenglow: Works, but the custom background image doesn't show.
+Alpenglow: Background image doesn't show.
 
 ---
 For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
