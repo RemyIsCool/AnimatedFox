@@ -21,4 +21,6 @@ https://github.com/RemyIsCool/userChrome.css/assets/97812130/4278182a-f201-420a-
 
 If you would like your tabs to be centered, set the option "minimal-gruvbox-material-firefox.centered-tabs" to true in about:config.
 
+This theme might work with other color schemes, but I can't guarantee it.
+
 For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
