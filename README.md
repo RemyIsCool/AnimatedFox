@@ -12,7 +12,7 @@ https://github.com/RemyIsCool/userChrome.css/assets/97812130/4278182a-f201-420a-
  - [Firefox Color extention](https://addons.mozilla.org/en-CA/firefox/addon/firefox-color/) added to your browser.
 
 ## Installation
-1. Make sure you have everything listed in [Requirements].
+1. Make sure you have everything listed in Requirements.
 2. Enable toolkit.legacyUserProfileCustomizations.stylesheets in [about:config](about:config).
 3. Add the userChrome.css file to your chrome folder.
  
