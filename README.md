@@ -8,7 +8,7 @@ https://github.com/RemyIsCool/userChrome.css/assets/97812130/4278182a-f201-420a-
 
 ## Requirements
  - An up-to-date version of Firefox or a Firefox derivative such as LibreWolf or Waterfox.
- - [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip) installed on your system.
+ - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed on your system.
  - [Firefox Color extention](https://addons.mozilla.org/en-CA/firefox/addon/firefox-color/) added to your browser.
 
 ## Installation
