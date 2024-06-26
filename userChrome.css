@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-	font-family: JetBrainsMono Nerd Font;
+	font-family: JetBrains Mono;
 }
 
 #alltabs-button, .titlebar-buttonbox-container, #page-action-buttons, #tracking-protection-icon-container, #identity-box {
