@@ -7,7 +7,7 @@ https://github.com/RemyIsCool/userChrome.css/assets/97812130/4278182a-f201-420a-
 
 
 ## Requirements
- - An up-to-date version of Firefox or a Firefox derivative such as LibreWolf.
+ - An up-to-date version of Firefox or LibreWolf. Other Firefox derivatives might work but I haven't tested them.
  - [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed on your system.
  - [Firefox Color extention](https://addons.mozilla.org/en-CA/firefox/addon/firefox-color/) added to your browser.
 
