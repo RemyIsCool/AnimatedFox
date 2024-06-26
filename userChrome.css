@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-	font-family: JetBrains Mono;
+	font-family: JetBrainsMono Nerd Font, JetBrains Mono;
 }
 
 #alltabs-button, .titlebar-buttonbox-container, #page-action-buttons, #tracking-protection-icon-container, #identity-box {
@@ -10,7 +10,7 @@
 
 #titlebar {
 	z-index: 2;
-	background-color: #282828 !important;
+	background-color: var(--toolbar-bgcolor) !important;
 }
 
 #nav-bar {
@@ -22,7 +22,7 @@
 	transition: top 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), opacity 0.1s ease !important;
 	border-top: none !important;
 	border-radius: 10px !important;
-	border: 1px solid #32302F !important;
+	border: 1px solid var(--tab-selected-bgcolor) !important;
 	opacity: 0;
 }
 
@@ -35,11 +35,11 @@
 	transition: 0.2s opacity ease;
 }
 
-#navigator-toolbox:not(:hover, :focus-within) #nav-bar {
+#navigator-toolbox:not(:hover, :focus-within, :has([open])) #nav-bar {
 	transition-delay: 0.2s !important;
 }
 
-#navigator-toolbox:is(:hover, :focus-within) {
+#navigator-toolbox:is(:hover, :focus-within, :has([open])) {
 	#nav-bar {
 	  top: 3.5rem;
 		opacity: 1;
@@ -61,10 +61,10 @@
 
 .tabbrowser-tab {
 	transition: min-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), max-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280) !important;
-	&:is([fadein], [pinned]) {
+	&[fadein]:not([pinned]) {
 	 max-width: 175px !important;
 	}
-	&[selected] {
+	&[selected]:not([pinned]) {
 		min-width: 250px !important;
 		max-width: 250px !important;
 	}
@@ -75,7 +75,7 @@
 }
 
 .urlbarView-url {
-	color: #d4be98 !important;
+	color: var(--toolbar-color) !important;
 }
 
 #tabbrowser-arrowscrollbox {
