@@ -4,7 +4,11 @@
 	font-family: JetBrainsMono Nerd Font, JetBrains Mono;
 }
 
-#alltabs-button, .titlebar-buttonbox-container, #page-action-buttons, #tracking-protection-icon-container, #identity-box {
+#alltabs-button,
+.titlebar-buttonbox-container,
+#page-action-buttons,
+#tracking-protection-icon-container,
+#identity-box {
 	display: none;
 }
 
@@ -18,7 +22,7 @@
 	top: 0;
 	left: 25%;
 	right: 25%;
-  z-index: 1;
+	z-index: 1;
 	transition: top 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), opacity 0.1s ease !important;
 	border-top: none !important;
 	border-radius: 10px !important;
@@ -41,10 +45,10 @@
 
 #navigator-toolbox:is(:hover, :focus-within, :has([open])) {
 	#nav-bar {
-	  top: 3.5rem;
+		top: 3.5rem;
 		opacity: 1;
-  }
-	
+	}
+
 	#tabs-newtab-button {
 		opacity: 1;
 	}
@@ -61,9 +65,11 @@
 
 .tabbrowser-tab {
 	transition: min-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), max-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280) !important;
+
 	&[fadein]:not([pinned]) {
-	 max-width: 175px !important;
+		max-width: 175px !important;
 	}
+
 	&[selected]:not([pinned]) {
 		min-width: 250px !important;
 		max-width: 250px !important;
@@ -83,12 +89,12 @@
 }
 
 
-@media (-moz-bool-pref: "minimal-gruvbox-material-firefox.centered-tabs") {
-  #tabbrowser-arrowscrollbox:not([overflowing]) {
-	  --uc-flex-justify: center;
-  }
+@media (-moz-bool-pref: "animatedFox.centeredTabs") {
+	#tabbrowser-arrowscrollbox:not([overflowing]) {
+		--uc-flex-justify: center;
+	}
 
-  scrollbox[orient="horizontal"] {
-	  justify-content: var(--uc-flex-justify, initial);
-  }
+	scrollbox[orient="horizontal"] {
+		justify-content: var(--uc-flex-justify, initial);
+	}
 }
