@@ -1,7 +1,7 @@
 # ✨ AnimatedFox ✨
 A minimal Firefox theme with a hidden URL bar and satisfying animations.
 
-https://github.com/RemyIsCool/userChrome.css/assets/97812130/83139bab-ec0e-41ff-9a20-a97632f9f372
+https://github.com/RemyIsCool/AnimatedFox/assets/97812130/d55f1a6d-0b77-4251-b6eb-ca7b020a526b
 
 ## 🖥️ Requirements
  - 🦊 An up-to-date version of Firefox or LibreWolf. Other Firefox derivatives might work but I haven't tested them.
