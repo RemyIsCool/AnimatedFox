@@ -14,7 +14,7 @@ https://github.com/RemyIsCool/AnimatedFox/assets/97812130/d55f1a6d-0b77-4251-b6e
 3. 📁 Go to about:support and copy the profile directory path.
 4. ⌨️ Clone this repository into a directory called `chrome` inside the profile directory you just copied:
 ```bash
-git clone https://github.com/RemyIsCool/userChrome.css the-path-you-just-copied/chrome
+git clone https://github.com/RemyIsCool/AnimatedFox the-path-you-just-copied/chrome
 ```
 7. 📑 Hide the bookmarks toolbar by pressing Ctrl+Shift+B or right clicking and selecting "Never Show."
 8. 📎 Click [this link](https://color.firefox.com/?theme=XQAAAAKGAQAAAAAAAABBKYhm849SCia73laEGccwS-xMDPr5iE6wEt17lnFu4uAqMsdEr66zA4hyQFpjnIdIqexC6jk0ujxh3YezY5q8Yibz3vKnXSdVRwFGs8MGkNcRmXXkVBYSSb5AZytOH-ZH-2fJHXOM2cMauhgxI-owK6hf70XV6B-CNgSQ8ezEFHnV3IYDQizRHgzyz4-QTV3e2qMGHFZQ86mhpKNfHjKK6Ay7Rw6VO4ffFxgcOJhEOGZegOZPzluYPS3grJZyeCZz6Y1js48jUOlOXyXnJ9VOUhG__2C1sgA) to install the Firefox Color theme. (Optional)
