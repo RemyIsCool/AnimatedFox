@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-	font-family: JetBrainsMono Nerd Font, JetBrains Mono;
+	font-family: JetBrainsMono Nerd Font, JetBrains Mono, monospace, monospace;
 }
 
 #alltabs-button,
