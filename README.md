@@ -6,7 +6,7 @@ https://github.com/RemyIsCool/AnimatedFox/assets/97812130/7c1ea741-5b01-4e7f-892
 ## 🖥️ Requirements
  - 🦊 An up-to-date version of Firefox or LibreWolf. Other Firefox derivatives might work but I haven't tested them.
  - 🔤 [JetBrains Mono](https://www.jetbrains.com/lp/mono/) installed on your system.
- - 🎨 [Firefox Color extention](https://addons.mozilla.org/en-CA/firefox/addon/firefox-color/) added to your browser. (Optional)
+ - 🎨 [Firefox Color extension](https://addons.mozilla.org/en-CA/firefox/addon/firefox-color/) added to your browser. (Optional)
 
 ## ⬇️ Installation
 1. ✅ Make sure you have everything listed in Requirements.
