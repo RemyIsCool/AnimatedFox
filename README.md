@@ -23,7 +23,7 @@ git clone https://github.com/RemyIsCool/AnimatedFox chrome
 
 If you would like your tabs to be centered, set the option `animatedFox.centeredTabs` to true in about:config.
 
-If you want to use this theme with the [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour) extension instead of Firefox Color, set the option `animatedFox.adaptiveTabBarColourSupport` to true in about:config. If you do this, you do not need to install the Firefox Color theme.
+If you want to use this theme with the [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour) extension instead of Firefox Color, set the option `animatedFox.adaptiveTabBarColourSupport` to true in about:config.
 
 ---
 For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
