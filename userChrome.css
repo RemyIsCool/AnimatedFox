@@ -30,6 +30,12 @@
 	opacity: 0;
 }
 
+@media (-moz-bool-pref: "animatedFox.adaptiveTabBarColourSupport") {
+	#nav-bar {
+		background-color: var(--tabpanel-background-color) !important;
+	}
+}
+
 #navigator-toolbox {
 	border-bottom: none !important;
 }
