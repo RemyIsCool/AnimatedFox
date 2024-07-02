@@ -38,6 +38,7 @@ git pull
  - Moving around tabs is very buggy. You should instead use the keyboard shortcuts ctrl+shift+page up/down.
  - Items to the right of the search bar overlap when the window is too narrow.
  - Customizing the toolbar doesn't work with the theme applied.
+ - Color themes with transparency usually don't work well.
 
 ---
 For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
