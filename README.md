@@ -38,7 +38,7 @@ git pull
 
 ## 👾 Known Issues
  - Moving around tabs is very buggy. You should instead use the keyboard shortcuts ctrl+shift+page up/down.
- - Customizing the toolbar doesn't work with the theme applied.
+ - Customizing the toolbar doesn't work with the theme applied. You'll need to disable it, make your changes, and enable it again.
  - Color themes with transparency usually don't work well.
 
 If anyone knows how to fix these issues, feel free to submit a pull request.
