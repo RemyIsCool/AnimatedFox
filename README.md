@@ -40,5 +40,7 @@ git pull
  - Customizing the toolbar doesn't work with the theme applied.
  - Color themes with transparency usually don't work well.
 
+If anyone knows how to fix these issues, feel free to submit a pull request.
+
 ---
 For the new tab page, see https://github.com/RemyIsCool/New-Tab-Page.
