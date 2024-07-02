@@ -110,3 +110,110 @@
 		justify-content: var(--uc-flex-justify, initial);
 	}
 }
+
+@media (-moz-bool-pref: "animatedFox.centeredUrl") {
+	#nav-bar {
+		text-align: center;
+	}
+}
+
+@media (-moz-bool-pref: "animatedFox.roundedCorners") {
+
+	#main-window[BookmarksToolbarOverlapsBrowser] .newTabBrowserPanel,
+	#main-window[BookmarksToolbarOverlapsBrowser] #sidebar-box {
+		padding-top: 0 !important;
+	}
+
+	#navigator-toolbox {
+		border-bottom: none !important;
+	}
+
+	#main-window:not([chromehidden~="toolbar"]) {
+		--uc-rc-padding: 6px;
+		--uc-rc-radius: 10px;
+		--uc-rc-shadow: 0 -.8px 0 0 rgb(0 0 0 / 0.02),
+			0 0.5px 1px 1px rgb(0 0 0 / 0.06),
+			0 1px 1px rgb(0 0 0 / 0.1);
+		--uc-browser-frame-bgcolor: var(--lwt-accent-color);
+
+		@media (resolution > 1.8dppx) {
+			--uc-rc-shadow: 0 0 0.5px 0.5px rgb(0 0 0 / 0.06),
+				0 0.5px 1.5px rgb(0 0 0 / 0.1);
+		}
+
+		:root[inFullscreen] #navigator-toolbox[style*="margin-top"]+#browser,
+		:root[inDOMFullscreen] #browser {
+			--uc-rc-padding: 0;
+			--uc-rc-radius: 0;
+			--uc-rc-shadow: unset;
+		}
+
+		#appcontent .browserStack {
+			margin-inline: var(--uc-rc-padding) !important;
+			margin-bottom: var(--uc-rc-padding) !important;
+			border-radius: var(--uc-rc-radius) !important;
+			box-shadow: var(--uc-rc-shadow) !important;
+			background-color: var(--lwt-accent-color) !important;
+			position: relative !important;
+
+			&::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				border-radius: inherit;
+				box-shadow:
+					var(--uc-rc-shadow, 0 0 transparent),
+					0 0 0 16px var(--lwt-accent-color) !important;
+				clip-path: inset(0);
+				pointer-events: none;
+			}
+		}
+
+		#statuspanel {
+			overflow: hidden;
+		}
+
+		.devtools-toolbox-side-iframe {
+			margin-block-end: var(--uc-rc-padding) !important;
+			border-radius: var(--uc-rc-radius) !important;
+			overflow: hidden !important;
+			box-shadow: var(--uc-rc-shadow) !important;
+
+			&:first-child {
+				margin-inline-start: var(--uc-rc-padding) !important;
+			}
+
+			&:last-child {
+				margin-inline-end: var(--uc-rc-padding) !important;
+			}
+		}
+
+		.devtools-toolbox-bottom-iframe {
+			margin-inline: var(--uc-rc-padding) !important;
+			margin-block-start: 0 !important;
+			border-radius: var(--uc-rc-radius) !important;
+			overflow: hidden !important;
+			box-shadow: var(--uc-rc-shadow) !important;
+		}
+
+		.devtools-side-splitter,
+		.devtools-horizontal-splitter {
+			background-color: var(--lwt-accent-color) !important;
+		}
+
+		.browserContainer.responsive-mode {
+			background-color: var(--lwt-accent-color) !important;
+
+			& .rdm-toolbar {
+				margin-inline: var(--uc-rc-padding) !important;
+				border-top-left-radius: var(--uc-rc-radius) !important;
+				border-top-right-radius: var(--uc-rc-radius) !important;
+				width: calc(100% - var(--uc-rc-padding) * 2) !important;
+			}
+		}
+
+		#tabbrowser-tabpanels {
+			background-color: var(--lwt-accent-color) !important;
+		}
+	}
+}
