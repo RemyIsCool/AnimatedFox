@@ -17,14 +17,16 @@ cd the/path/you/just/copied
 git clone https://github.com/RemyIsCool/AnimatedFox chrome
 ```
 7. 📑 Hide the bookmarks toolbar by pressing Ctrl+Shift+B or right clicking and selecting "Never Show."
-8. ❌ Right click the toolbar and select "Customize Toolbar." Remove everything except the back, forwards, reload, downloads, and unified extensions buttons.
+8. ❌ Right click the toolbar and select "Customize Toolbar." If you want it to look like it does in the screenshot, make it look like this:
+  ![image](https://github.com/RemyIsCool/AnimatedFox/assets/97812130/9dbeae08-4705-48f4-848e-14acddde42a2)
+
 10. 📎 Click [this link](https://color.firefox.com/?theme=XQAAAAJvAQAAAAAAAABBKYhm849SCia6aSqEGccwS-xMDPr79BBHlbukoJ1XpIq5hjxKu7S0U9lCpfLby_MuT9uV4fsIlHDN4w0iPOF2qkutG6LdQPflhViMuNpfMCNFmKDH2Qhyehu6MLzXNQVs0GY1r7ovoIKuXhztaOFq4FJioxA6R9vRCSJuYTYjMcrT3wBcJ_XdWHORl4vB5EsBIyfUdxh6pWun2gm3c5dZSWxgRjZgQNbYla1JkPdZXrRZJu4Yn_cR-hQmKENt0sT5rV-8_-VWOmA
 ) to install the Firefox Color theme. (Optional)
 11. 🔄 Restart your browser for the theme to be applied.
 
 If you would like your tabs to be centered, set the option `animatedFox.centeredTabs` to true in about:config.
 
-If you want the same colors as shown in the video, install [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color), then click [this link](https://color.firefox.com/?theme=XQAAAAJvAQAAAAAAAABBKYhm849SCia6aSqEGccwS-xMDPr79BBHlbukoJ1XpIq5hjxKu7S0U9lCpfLby_MuT9uV4fsIlHDN4w0iPOF2qkutG6LdQPflhViMuNpfMCNFmKDH2Qhyehu6MLzXNQVs0GY1r7ovoIKuXhztaOFq4FJioxA6R9vRCSJuYTYjMcrT3wBcJ_XdWHORl4vB5EsBIyfUdxh6pWun2gm3c5dZSWxgRjZgQNbYla1JkPdZXrRZJu4Yn_cR-hQmKENt0sT5rV-8_-VWOmA
+If you want the same colors as the screenshot, install [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color), then click [this link](https://color.firefox.com/?theme=XQAAAAJvAQAAAAAAAABBKYhm849SCia6aSqEGccwS-xMDPr79BBHlbukoJ1XpIq5hjxKu7S0U9lCpfLby_MuT9uV4fsIlHDN4w0iPOF2qkutG6LdQPflhViMuNpfMCNFmKDH2Qhyehu6MLzXNQVs0GY1r7ovoIKuXhztaOFq4FJioxA6R9vRCSJuYTYjMcrT3wBcJ_XdWHORl4vB5EsBIyfUdxh6pWun2gm3c5dZSWxgRjZgQNbYla1JkPdZXrRZJu4Yn_cR-hQmKENt0sT5rV-8_-VWOmA
 ). This theme also works very well with the [Adaptive Tab Bar Color](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour) extension.
 
 ## 🔃 Updating
