@@ -14,7 +14,6 @@
 
 #titlebar {
 	z-index: 2;
-	background-color: var(--toolbar-bgcolor) !important;
 }
 
 #nav-bar {
@@ -27,13 +26,8 @@
 	border-top: none !important;
 	border-radius: 10px !important;
 	border: 1px solid var(--tab-selected-bgcolor) !important;
+	background: var(--lwt-accent-color) !important;
 	opacity: 0;
-}
-
-@media (-moz-bool-pref: "animatedFox.adaptiveTabBarColourSupport") {
-	#nav-bar {
-		background-color: var(--tabpanel-background-color) !important;
-	}
 }
 
 #navigator-toolbox {
