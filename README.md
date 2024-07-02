@@ -32,7 +32,7 @@ If you would like your tabs to be centered, set the option `animatedFox.centered
 cd the/path/you/just/copied/chrome
 git pull
 ```
-3. 🎨 Re-install the Firefox Color theme if you installed it. (If you updated and your colors look wrong, this is probably why)
+3. 🎨 Re-install the Firefox Color theme if you installed it.
 
 ## 👾 Known Issues
  - Moving around tabs is very buggy. You should instead use the keyboard shortcuts ctrl+shift+page up/down.
