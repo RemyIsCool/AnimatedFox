@@ -124,6 +124,10 @@
 		padding-top: 0 !important;
 	}
 
+	#main-window[BookmarksToolbarOverlapsBrowser] #browser {
+		margin-top: var(--bookmarks-toolbar-overlapping-browser-height);
+	}
+
 	#navigator-toolbox {
 		border-bottom: none !important;
 	}
@@ -201,8 +205,35 @@
 			}
 		}
 
+		:not(:root[inFullscreen] #navigator-toolbox[style*="margin-top"])+#browser #sidebar-splitter {
+			border-inline-width: 0 !important;
+		}
+
+		#browser {
+			background-color: var(--lwt-accent-color);
+		}
+		
 		#tabbrowser-tabpanels {
 			background-color: var(--lwt-accent-color) !important;
+		}
+	}
+
+	#sidebar-box {
+		margin-inline: var(--uc-rc-padding) !important;
+		margin-bottom: var(--uc-rc-padding) !important;
+		border-radius: var(--uc-rc-radius) !important;
+		background-color: var(--lwt-accent-color) !important;
+		position: relative !important;
+
+		&::after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			border-radius: inherit;
+			box-shadow: 0 0 0 16px var(--lwt-accent-color) !important;
+			border: 1px solid var(--tab-selected-bgcolor) !important;
+			clip-path: inset(0);
+			pointer-events: none;
 		}
 	}
 }
