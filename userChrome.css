@@ -110,3 +110,130 @@
 		justify-content: var(--uc-flex-justify, initial);
 	}
 }
+
+@media (-moz-bool-pref: "animatedFox.centeredUrl") {
+	#nav-bar {
+		text-align: center;
+	}
+}
+
+@media (-moz-bool-pref: "animatedFox.roundedCorners") {
+
+	#main-window[BookmarksToolbarOverlapsBrowser] .newTabBrowserPanel,
+	#main-window[BookmarksToolbarOverlapsBrowser] #sidebar-box {
+		padding-top: 0 !important;
+	}
+
+	#main-window[BookmarksToolbarOverlapsBrowser] #browser {
+		margin-top: var(--bookmarks-toolbar-overlapping-browser-height);
+	}
+
+	#navigator-toolbox {
+		border-bottom: none !important;
+	}
+
+	#main-window:not([chromehidden~="toolbar"]) {
+		--uc-rc-padding: 6px;
+		--uc-rc-radius: 10px;
+		--uc-browser-frame-bgcolor: var(--lwt-accent-color);
+
+		:root[inFullscreen] #navigator-toolbox[style*="margin-top"]+#browser,
+		:root[inDOMFullscreen] #browser {
+			--uc-rc-padding: 0;
+			--uc-rc-radius: 0;
+		}
+
+		#appcontent .browserStack {
+			margin-inline: var(--uc-rc-padding) !important;
+			margin-bottom: var(--uc-rc-padding) !important;
+			border-radius: var(--uc-rc-radius) !important;
+			background-color: var(--lwt-accent-color) !important;
+			position: relative !important;
+
+			&::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				border-radius: inherit;
+				box-shadow: 0 0 0 16px var(--lwt-accent-color) !important;
+				border: 1px solid var(--tab-selected-bgcolor) !important;
+				clip-path: inset(0);
+				pointer-events: none;
+			}
+		}
+
+		#statuspanel {
+			overflow: hidden;
+		}
+
+		.devtools-toolbox-side-iframe {
+			margin-block-end: var(--uc-rc-padding) !important;
+			border-radius: var(--uc-rc-radius) !important;
+			overflow: hidden !important;
+			box-shadow: var(--lwt-accent-color) !important;
+
+			&:first-child {
+				margin-inline-start: var(--uc-rc-padding) !important;
+			}
+
+			&:last-child {
+				margin-inline-end: var(--uc-rc-padding) !important;
+			}
+		}
+
+		.devtools-toolbox-bottom-iframe {
+			margin-inline: var(--uc-rc-padding) !important;
+			margin-block-start: 0 !important;
+			border-radius: var(--uc-rc-radius) !important;
+			overflow: hidden !important;
+			box-shadow: var(--lwt-accent-color) !important;
+		}
+
+		.devtools-side-splitter,
+		.devtools-horizontal-splitter {
+			background-color: var(--lwt-accent-color) !important;
+		}
+
+		.browserContainer.responsive-mode {
+			background-color: var(--lwt-accent-color) !important;
+
+			& .rdm-toolbar {
+				margin-inline: var(--uc-rc-padding) !important;
+				border-top-left-radius: var(--uc-rc-radius) !important;
+				border-top-right-radius: var(--uc-rc-radius) !important;
+				width: calc(100% - var(--uc-rc-padding) * 2) !important;
+			}
+		}
+
+		:not(:root[inFullscreen] #navigator-toolbox[style*="margin-top"])+#browser #sidebar-splitter {
+			border-inline-width: 0 !important;
+		}
+
+		#browser {
+			background-color: var(--lwt-accent-color);
+		}
+		
+		#tabbrowser-tabpanels {
+			background-color: var(--lwt-accent-color) !important;
+		}
+	}
+
+	#sidebar-box {
+		margin-inline: var(--uc-rc-padding) !important;
+		margin-bottom: var(--uc-rc-padding) !important;
+		border-radius: var(--uc-rc-radius) !important;
+		background-color: var(--lwt-accent-color) !important;
+		position: relative !important;
+
+		&::after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			border-radius: inherit;
+			box-shadow: 0 0 0 16px var(--lwt-accent-color) !important;
+			border: 1px solid var(--tab-selected-bgcolor) !important;
+			clip-path: inset(0);
+			pointer-events: none;
+		}
+	}
+}
