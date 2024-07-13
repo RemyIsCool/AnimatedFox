@@ -16,6 +16,25 @@
 	z-index: 2;
 }
 
+@media (-moz-bool-pref: "animatedFox.hideSingleTab") {
+	.tabbrowser-tab:only-of-type {
+		height: 0px !important;
+
+		#titlebar:has(&):after {
+			content: '';
+			position: fixed !important;
+			right: 0;
+			left: 0;
+			top: 0;
+			height: 3rem;
+		}
+
+		:has(&) #navigator-toolbox:is(:hover, :focus-within, :has([open])) #nav-bar {
+			top: 1.5rem;
+		}
+	}
+}
+
 #nav-bar {
 	position: fixed !important;
 	top: 0;
@@ -76,7 +95,8 @@
 }
 
 .tabbrowser-tab {
-	transition: min-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), max-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280) !important;
+	transition: min-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), max-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), height 0.1s ease !important;
+	height: 100%;
 
 	&[fadein]:not([pinned]) {
 		max-width: 175px !important;
@@ -212,7 +232,7 @@
 		#browser {
 			background-color: var(--lwt-accent-color);
 		}
-		
+
 		#tabbrowser-tabpanels {
 			background-color: var(--lwt-accent-color) !important;
 		}
