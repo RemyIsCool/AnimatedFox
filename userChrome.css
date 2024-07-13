@@ -26,12 +26,16 @@
 			right: 0;
 			left: 0;
 			top: 0;
-			height: 3rem;
+			height: 1rem;
 		}
 
 		:has(&) #navigator-toolbox:is(:hover, :focus-within, :has([open])) #nav-bar {
-			top: 1.5rem;
+			top: 1rem !important;
 		}
+	}
+	
+	:has(.tabbrowser-tab:only-of-type) #nav-bar {
+		top: -3rem !important;
 	}
 }
 
