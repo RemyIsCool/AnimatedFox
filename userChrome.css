@@ -16,6 +16,12 @@
 	z-index: 2;
 }
 
+@media (-moz-bool-pref: "animatedFox.squareCorners") {
+	:root * {
+		border-radius: 0px !important;
+	}
+}
+
 @media (-moz-bool-pref: "animatedFox.hideSingleTab") {
 	.tabbrowser-tab:only-of-type {
 		height: 0px !important;
@@ -33,7 +39,7 @@
 			top: 1rem !important;
 		}
 	}
-	
+
 	:has(.tabbrowser-tab:only-of-type) #nav-bar {
 		top: -3rem !important;
 	}
@@ -59,7 +65,7 @@
 	transition: top 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280),
 	opacity 0.1s ease !important;
 	border-top: none !important;
-	border-radius: 10px !important;
+	border-radius: 10px;
 	border: 1px solid var(--tab-selected-bgcolor) !important;
 	background: var(--lwt-accent-color) !important;
 	opacity: 0;
@@ -89,7 +95,7 @@
 	}
 }
 
-.tab-background {
+:where(.tab-background) {
 	box-shadow: none !important;
 	border-radius: 10px !important;
 }
@@ -112,7 +118,7 @@
 	}
 }
 
-#urlbar-background {
+:where(#urlbar-background) {
 	border-radius: 10px !important;
 }
 
