@@ -45,6 +45,12 @@
 	}
 }
 
+@media (-moz-bool-pref: "animatedFox.showTabCloseButton") {
+	#tabbrowser-tabs .tabbrowser-tab:not([pinned], [selected]):hover .tab-close-button {
+		display: flex !important;
+	}
+}
+
 #nav-bar {
 	position: fixed !important;
 	top: 0;
