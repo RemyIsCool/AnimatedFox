@@ -149,6 +149,12 @@
 
 @media (-moz-bool-pref: "animatedFox.roundedCorners") {
 
+	:root[sizemode="fullscreen"] #navigator-toolbox[style*="margin-top"]+#browser,
+	:root[sizemode="fullscreen"] #browser {
+		--uc-rc-padding: 0;
+		--uc-rc-radius: 0;
+	}
+
 	#main-window[BookmarksToolbarOverlapsBrowser] .newTabBrowserPanel,
 	#main-window[BookmarksToolbarOverlapsBrowser] #sidebar-box {
 		padding-top: 0 !important;
@@ -165,13 +171,8 @@
 	#main-window:not([chromehidden~="toolbar"]) {
 		--uc-rc-padding: 6px;
 		--uc-rc-radius: 10px;
-		--uc-browser-frame-bgcolor: var(--lwt-accent-color);
 
-		:root[inFullscreen] #navigator-toolbox[style*="margin-top"]+#browser,
-		:root[inDOMFullscreen] #browser {
-			--uc-rc-padding: 0;
-			--uc-rc-radius: 0;
-		}
+		--uc-browser-frame-bgcolor: var(--lwt-accent-color);
 
 		#appcontent .browserStack {
 			margin-inline: var(--uc-rc-padding) !important;
