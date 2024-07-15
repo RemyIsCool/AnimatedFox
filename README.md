@@ -35,6 +35,7 @@ The following options can be set in about:config:
 | Square Corners (All browser elements have square corners)  | `animatedFox.squareCorners`
 | Rounded Corners (Rounded corners around page content. Not compatible with square corners) | `animatedFox.roundedCorners`
 | Hide Single Tab | `animatedFox.hideSingleTab`
+| Show Tab Close Button (on hover) | `animatedFox.showTabCloseButton`
 
 
 If you want the same colors as the screenshot, install [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color), then click [this link](https://color.firefox.com/?theme=XQAAAAJvAQAAAAAAAABBKYhm849SCia6aSqEGccwS-xMDPr79BBHlbukoJ1XpIq5hjxKu7S0U9lCpfLby_MuT9uV4fsIlHDN4w0iPOF2qkutG6LdQPflhViMuNpfMCNFmKDH2Qhyehu6MLzXNQVs0GY1r7ovoIKuXhztaOFq4FJioxA6R9vRCSJuYTYjMcrT3wBcJ_XdWHORl4vB5EsBIyfUdxh6pWun2gm3c5dZSWxgRjZgQNbYla1JkPdZXrRZJu4Yn_cR-hQmKENt0sT5rV-8_-VWOmA
